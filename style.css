@@ -1,7 +1,7 @@
-/*CSSClassic v0.1.0.1 alpha test 7*/
+/*CSSClassic v0.1.0.1 alpha test 8*/
 
 body{
-	background-color: #dfdfdf;
+	background-color: #d3d0c7;
 }
 
 p, label, h1{
@@ -20,7 +20,7 @@ input[type="number"], input[type="text"]{
 
 input[type="radio"]{
 	border: inset 2px;
-	background-color: #dfdfdf;
+	background-color: #d3d0c7;
 }
 input[type="radio"]:active{
 	border: inset 2px;
@@ -30,9 +30,16 @@ input[type="radio"]:active{
 input[type="button"], button, input[type="submit"], input[type="reset"]{
 	padding: 4px 8px;
 	border: outset 2px;
-	background-color: #dfdfdf;
+	background-color: #d3d0c7;
 }
 input[type="button"]:active, button:active{
 	border: inset 2px;
 	background-color: #BBBBBB;
+}
+
+::selection{
+	background-color: #08226c;
+}
+::-moz-selection{
+	background-color: #08226c;
 }
