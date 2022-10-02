@@ -1,4 +1,4 @@
-/*CSSClassic v0.1.0.1 alpha test 4*/
+/*CSSClassic v0.1.0.1 alpha test 5*/
 
 body{
 	background-color: #dfdfdf;
@@ -23,7 +23,7 @@ input[type="radio"]:focus{
 	background-color: #dfdfdf;
 }
 
-input[type="button"], button, input[type="submit"], input[type="reset"]{
+_:-ms-fullscreen, :root input[type="button"], button, input[type="submit"], input[type="reset"]{
 	padding: 4px 8px;
 	border: outset 2px;
 	background-color: #dfdfdf;

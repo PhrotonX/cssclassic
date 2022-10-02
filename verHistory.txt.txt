@@ -1,7 +1,0 @@
-Changelogs:
-Version 0.1.0.2 alpha:
-1. 17:11 8/19/2022 - Added support for <button> tag
-2. 17:12 8/19/2022 - Added support for active <button> tag
-3. 17:13 8/19/2022 - Fix <button> stuck on active state even without interaction.
-4. 17:14 8/19/2022 - Removed #author and #total-value on the file.
-5. 17:17 8/19/2022 - Added support for input[type="text"] that matches input[type-"number"].
