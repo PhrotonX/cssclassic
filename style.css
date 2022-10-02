@@ -1,4 +1,4 @@
-/*CSSClassic v0.1.0.1 alpha test 9*/
+/*CSSClassic v0.1.0.1 alpha test 10*/
 
 body{
 	background-color: #d3d0c7;
@@ -16,6 +16,9 @@ input[type="number"], input[type="text"]{
 	border: inset 2px;
 	border-radius: 0;
 	background-color: #ffffff;
+}
+input[type="number"]:disabled, input[type="text"]:disabled{
+	background-color: #d3d0c7;
 }
 
 input[type="radio"]{
