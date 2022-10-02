@@ -1,36 +1,38 @@
-/*CSSClassic v0.1.0.1 alpha test 6*/
+/*CSSClassic v0.1.0.1 alpha test 7*/
 
-@media all and(-ms-high-contrast: none){
-	body{
-		background-color: #dfdfdf;
-	}
-	
-	p, label, h1{
-		font-family: "Arial";
-	}
-	
-	input:focus{
-		outline: none;
-	}
-	
-	input[type="number"], input[type="text"]{
-		border: inset 2px;
-		border-radius: 0;
-		background-color: #ffffff;
-	}
-	
-	input[type="radio"]:focus{
-		border: inset 2px;
-		background-color: #dfdfdf;
-	}
-	
-	input[type="button"], button, input[type="submit"], input[type="reset"]{
-		padding: 4px 8px;
-		border: outset 2px;
-		background-color: #dfdfdf;
-	}
-	input[type="button"]:active, button:active{
-		border: inset 2px;
-		background-color: #BBBBBB;
-	}
+body{
+	background-color: #dfdfdf;
+}
+
+p, label, h1{
+	font-family: "Arial";
+}
+
+input:focus{
+	outline: none;
+}
+
+input[type="number"], input[type="text"]{
+	border: inset 2px;
+	border-radius: 0;
+	background-color: #ffffff;
+}
+
+input[type="radio"]{
+	border: inset 2px;
+	background-color: #dfdfdf;
+}
+input[type="radio"]:active{
+	border: inset 2px;
+	background-color: #BBBBBB;
+}
+
+input[type="button"], button, input[type="submit"], input[type="reset"]{
+	padding: 4px 8px;
+	border: outset 2px;
+	background-color: #dfdfdf;
+}
+input[type="button"]:active, button:active{
+	border: inset 2px;
+	background-color: #BBBBBB;
 }
