@@ -1,7 +1,7 @@
-/*CSSClassic v0.1.0.1 alpha test 11*/
+/*CSSClassic v0.1.0.1 alpha test 12*/
 
 body{
-	background-color: #d3d0c7;
+	background-color: #cfcfcf;
 }
 
 p, label, h1{
@@ -18,12 +18,12 @@ input[type="number"], input[type="text"]{
 	background-color: #ffffff;
 }
 input[type="number"]:disabled, input[type="text"]:disabled{
-	background-color: #d3d0c7;
+	background-color: #cfcfcf;
 }
 
 input[type="radio"]{
 	border: inset 2px;
-	background-color: #d3d0c7;
+	background-color: #cfcfcf;
 }
 input[type="radio"]:active{
 	border: inset 2px;
@@ -33,11 +33,11 @@ input[type="radio"]:active{
 input[type="button"], button, input[type="submit"], input[type="reset"]{
 	padding: 4px 8px;
 	border: outset 2px;
-	background-color: #d3d0c7;
+	background-color: #cfcfcf;
 }
 input[type="button"]:disabled:active, button:disabled:active, input[type="submit"]:disabled:active, input[type="reset"]:disabled:active{
 	border: outset 2px;
-	background-color: #d3d0c7;
+	background-color: #cfcfcf;
 }
 input[type="button"]:active, button:active{
 	border: inset 2px;
