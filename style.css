@@ -1,4 +1,4 @@
-/*CSSClassic v0.1.0.1 alpha test 8*/
+/*CSSClassic v0.1.0.1 alpha test 9*/
 
 body{
 	background-color: #d3d0c7;
@@ -39,7 +39,9 @@ input[type="button"]:active, button:active{
 
 ::selection{
 	background-color: #08226c;
+	color: #ffffff;
 }
 ::-moz-selection{
 	background-color: #08226c;
+	color: #ffffff;
 }
