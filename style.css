@@ -1,4 +1,4 @@
-/*CSSClassic v0.1.0.1 alpha test 12*/
+/*CSSClassic v0.1.0.1 alpha test 13*/
 
 body{
 	background-color: #cfcfcf;
@@ -40,8 +40,8 @@ input[type="button"]:disabled:active, button:disabled:active, input[type="submit
 	background-color: #cfcfcf;
 }
 input[type="button"]:active, button:active{
-	border: inset 2px;
 	background-color: #BBBBBB;
+	border: inset 2px;
 }
 
 ::selection{
@@ -51,4 +51,13 @@ input[type="button"]:active, button:active{
 ::-moz-selection{
 	background-color: #08226c;
 	color: #ffffff;
+}
+
+::-webkit-scrollbar-button{
+	background-color: #cfcfcf;
+	border: onset 2px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #cfcfcf;
+	border: onset 2px;
 }
