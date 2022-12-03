@@ -1,7 +1,11 @@
-/*CSSClassic v0.1.0.1 alpha test 16*/
+/*CSSClassic v0.1.0.1 alpha test 17*/
+:root{
+	--primary: #cfcfcf;
+	--button-active: #BBBBBB;
+}
 
 body{
-	background-color: #cfcfcf;
+	background-color: var(--primary);
 }
 
 p, label, h1{
@@ -18,26 +22,26 @@ input[type="number"], input[type="text"]{
 	background-color: #ffffff;
 }
 input[type="number"]:disabled, input[type="text"]:disabled{
-	background-color: #cfcfcf;
+	background-color: var(--primary);
 }
 
 input[type="radio"]{
 	border: inset 2px;
-	background-color: #cfcfcf;
+	background-color: var(--primary);
 }
 input[type="radio"]:active{
 	border: inset 2px;
-	background-color: #BBBBBB;
+	background-color: var(--button-active);
 }
 
 input[type="button"], button, input[type="submit"], input[type="reset"]{
 	padding: 4px 8px;
 	border: outset 2px;
-	background-color: #cfcfcf;
+	background-color: var(--primary);
 }
 input[type="button"]:disabled:active, button:disabled:active, input[type="submit"]:disabled:active, input[type="reset"]:disabled:active{
 	border: outset 2px;
-	background-color: #cfcfcf;
+	background-color: var(--primary);
 }
 input[type="button"]:active, button:active{
 	background-color: #BBBBBB;
@@ -58,12 +62,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-button{
-	background-color: #cfcfcf;
-	border: onset 2px;
+	background-color: var(--primary);
+	outline: 2px outset;
 }
 body::-webkit-scrollbar-thumb{
-	background-color: #cfcfcf;
-	/* outline: 2px solid slategrey; */
-	border: onset 2px;
+	background-color: var(--primary);
+	outline: 2px outset;
 }
 
