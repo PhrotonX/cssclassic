@@ -1,4 +1,4 @@
-/*CSSClassic v0.1.0.1 alpha test 15*/
+/*CSSClassic v0.1.0.1 alpha test 16*/
 
 body{
 	background-color: #cfcfcf;
@@ -59,11 +59,11 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-button{
 	background-color: #cfcfcf;
-	/* border: onset 2px; */
+	border: onset 2px;
 }
 body::-webkit-scrollbar-thumb{
 	background-color: #cfcfcf;
-	outline: 1px solid slategrey;
-	/* border: onset 2px; */
+	/* outline: 2px solid slategrey; */
+	border: onset 2px;
 }
 
