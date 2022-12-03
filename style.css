@@ -1,4 +1,4 @@
-/*CSSClassic v0.1.0.1 alpha test 18*/
+/*CSSClassic v0.1.0.1 alpha test 19*/
 :root{
 	--primary: #cfcfcf;
 	--button-active: #BBBBBB;
@@ -63,10 +63,10 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-button{
 	background-color: var(--primary);
-	outline: 2px outset var(--primary);
+	outline: 2px outset #EEEEEE;
 }
 body::-webkit-scrollbar-thumb{
 	background-color: var(--primary);
-	outline: 2px outset var(--primary);
+	outline: 2px outset #EEEEEE;
 }
 
