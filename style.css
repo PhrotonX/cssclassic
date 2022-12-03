@@ -1,4 +1,4 @@
-/*CSSClassic v0.1.0.1 alpha test 22*/
+/*CSSClassic v0.1.0.1 alpha test 23*/
 :root{
 	--primary: #cfcfcf;
 	--button-active: #BBBBBB;
@@ -58,19 +58,20 @@ input[type="button"]:active, button:active{
 }
 
 body::-webkit-scrollbar {
-    width: 1em;
+    background-color: white;
+	width: 1em;
 }
 
 body::-webkit-scrollbar-button{
 	background-color: var(--primary);
 	outline: 2px outset #EEEEEE;
-	margin-top: 2px;
-	margin-bottom: 2px;
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 body::-webkit-scrollbar-thumb{
 	background-color: var(--primary);
 	outline: 2px outset #EEEEEE;
-	margin-top: 2px;
-	margin-bottom: 2px;
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 
