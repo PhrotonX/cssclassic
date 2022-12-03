@@ -1,4 +1,4 @@
-/*CSSClassic v0.1.0.1 alpha test 14*/
+/*CSSClassic v0.1.0.1 alpha test 15*/
 
 body{
 	background-color: #cfcfcf;
@@ -53,11 +53,17 @@ input[type="button"]:active, button:active{
 	color: #ffffff;
 }
 
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
 body::-webkit-scrollbar-button{
 	background-color: #cfcfcf;
-	border: onset 2px;
+	/* border: onset 2px; */
 }
 body::-webkit-scrollbar-thumb{
 	background-color: #cfcfcf;
-	border: onset 2px;
+	outline: 1px solid slategrey;
+	/* border: onset 2px; */
 }
+
